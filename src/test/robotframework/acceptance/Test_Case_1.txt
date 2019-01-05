@@ -1,0 +1,13 @@
+*** Settings ***
+Documentation  A resource file containing the application specific keywords
+Library		SeleniumLibrary
+
+*** Test Cases ***
+Check out joe colantonio dot com
+	Open Browser  https://www.google.com  chrome
+	Input Text  name=q   hola mundo
+	Sleep  15 s
+	
+	Close Browser
+	
+	
