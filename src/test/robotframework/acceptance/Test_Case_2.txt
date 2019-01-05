@@ -9,7 +9,7 @@ ${URL}  https://www.google.com
 ${BROWSER}  chrome
 
 *** Test Cases ***
-TestCase 1
+TestCase 2
 	Given i am at Google Home Page  automation  www.asd.com
 
 
